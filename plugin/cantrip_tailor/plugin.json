@@ -1,0 +1,30 @@
+{
+  "api": 2,
+  "id": "cantrip_tailor",
+  "name": "Cantrip Tailor",
+  "short_name": "CT",
+  "version": "0.2.0",
+  "mode": "companion",
+  "description": "Finds the best set of gear to wear. Dumps what you are wearing and every wearable in your packs (slots, spells, requirements) for the cantrip-tailor desktop command, then shows the set it works out, with a button per piece that selects it in your inventory. Its Settings tab holds your priorities for that command. Its only game actions are background appraisals of wearables it has not seen the spells of yet, and those selections.",
+  "permissions": [
+    "data",
+    "ui",
+    "profiles",
+    "identify"
+  ],
+  "update_interval": 1.0,
+  "snapshot_fields": [
+    "character_name",
+    "level",
+    "skills",
+    "inventory",
+    "inventory_revision",
+    "appraisal_revision"
+  ],
+  "presentation": {
+    "title": "Cantrip Tailor",
+    "controls": "none",
+    "settings": false,
+    "status": false
+  }
+}
