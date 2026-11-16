@@ -73,9 +73,14 @@ a button that selects it, and the list turns green as you put things on.
 You need the AC:Unreal client, and this folder (`git clone`, or **Code >
 Download ZIP** on GitHub and unzip it somewhere).
 
+There are two parts and they live in different places. Only the small
+`plugin\cantrip_tailor` folder goes into the game. Everything else stays
+where you unzipped it - anywhere you like, it doesn't need to be near the
+game - and that is where you run the command from.
+
 ### 1. The plugin
 
-1. Copy the folder `plugin\cantrip_tailor` into your client's plugin folder,
+1. Copy just the folder `plugin\cantrip_tailor` into your client's plugin folder,
    so that you end up with:
 
    ```
